@@ -1,0 +1,182 @@
+
+.main-tops {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+.div_top {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 30px;
+}
+.div_top2 {
+    flex: 1;
+    border-left: 1px solid #ebebeb;
+    padding-left: 30px;
+    background-color: transparent;
+    
+}
+
+.top-widgets {
+    margin: 5%;
+    background: #fefdf9;
+    padding: 30px;
+    border: 1px solid #f2f4ef;
+    box-shadow: 0 41px 70px rgba(0, 0, 0, .03);
+    border-radius: 8px;
+}
+
+.bloco-de-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.receita-mensal {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background: #fefdf9;
+    box-shadow: 0 14px 21px 0 rgba(0, 0, 0, .06);
+    flex-grow: 1;
+    margin-left: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 10rem;
+}
+
+.receita-mensal h3 {
+    font-size: 1.1rem;
+    color: #656060;
+}
+
+.receita-mensal p {
+    color: rgb(74, 241, 74);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.despesa-mensal {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background: #fefdf9;
+    box-shadow: 0 14px 21px 0 rgba(0, 0, 0, .06);
+    flex-grow: 1;
+    margin-left: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 10rem;
+    float: right;
+
+}
+
+.despesa-mensal h3 {
+    font-size: 1.1rem;
+    color: #656060;
+}
+
+.despesa-mensal p {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.titulo-direita {
+    font-size: 1.5rem;
+}
+
+.bloco-info-direita {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+
+.bloco-info-direita li {
+    margin-right: 11px;
+    display: flex;
+    border: 1px solid #f2f4ef;
+    background: #fefdf9;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#liDespesa {
+    width: 7rem;
+}
+
+#liReceita {
+    width: 7rem;;
+}
+
+.bloco-info-direita :hover {
+    cursor: pointer;
+    background-color: #f6f6f8;
+    transition: 0.3s;
+}
+
+.bloco-info-direita li p {
+    margin-top: 1rem;
+    
+
+}
+
+.img-despesa {
+    width: 2.9rem;
+    
+}
+
+.img-receita {
+    width: 3.1rem;
+    
+}
+
+.saldo-geral {
+    margin: 5%;
+    background: #fefdf9;
+    padding: 30px;
+    border: 1px solid #f2f4ef;
+    box-shadow: 0 41px 70px rgba(0, 0, 0, .03);
+    border-radius: 8px;
+    
+}
+
+.saldo-geral-valor {
+    display: flex;
+    cursor: default;
+    opacity: 1;
+    flex-direction: column;
+    border-left: 3px solid green;
+    padding: 10px;
+    
+}
+
+.saldo-geral-valor p {
+    font-size: 1.5rem;
+    color: #656060;
+}
+
+.saldo-geral-valor strong {
+    font-size: 1.5rem;
+}
+
+.saldo-geral-valor label {
+    font-size: 1.1rem;
+    color: #656060;
+}
+
+

@@ -1,0 +1,58 @@
+* {
+    font-family: inter, sans-serif;
+}
+
+.head {
+    background-color: #18bd4d;
+    display: flex;
+    font-family: inter, sans-serif;
+}
+
+#main-nav {
+    display: flex;
+    margin-top: 15px ;
+    margin-left: 15%;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 10px;
+    
+}
+
+
+.visao-geral :hover{
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+.lancamentos :hover{
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    padding-bottom: 5px;
+    
+}
+
+.img-logo {
+    width: 50px;
+    
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+body {
+    background-color: #f3ebeb;
+}
