@@ -30,11 +30,11 @@
             <div class="div_top2">
                 <h2 class="titulo-direita">Acesso rápido</h2>
                 <ul class="bloco-info-direita">
-                    <li id="liDespesa">
+                    <li id="liDespesa" data-toggle="modal" data-target="#modalDespesa">
                         <i><img src="/assets/img/Despesa.png" class="img-despesa"></i>
                         <p>DESPESA</p>
                     </li>
-                    <li id="liReceita">
+                    <li id="liReceita" data-toggle="modal" data-target="#modalReceita">
                         <i><img src="/assets/img/Receita.png" class="img-receita"></i>
                         <p>RECEITA</p>
                     </li>
@@ -52,12 +52,79 @@
         </div>
     </div>
 
+    <div class="modal fade" id="modalDespesa">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Nova despesa</h2>                
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="get" name="formContato">
+                        <div class="form-group">
+                            <label for="descricao">Descrição</label>
+                            <input type="text" name="descricao" id="descricaoDes" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                            <label for="valor">Valor</label>
+                            <input type="number" name="valor" id="valorDes" class="form-control">
 
+                        </div>
+                        <div class="form-group">
+                            <label for="data">Data</label>
+                            <input type="date" name="data" id="dataDes" class="form-control">
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer" style="justify-content: center;">
+                     <button type="submit"  id="botaoDespesa"> <img src="/assets/img/img-button-complet.png" class="img-complet"></button>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalReceita">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Nova receita</h2>                
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="get" name="formContato">
+                        <div class="form-group">
+                            <label for="descricao">Descrição</label>
+                            <input type="text" name="descricao" id="descricaoRec" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                            <label for="valor">Valor</label>
+                            <input type="number" name="valor" id="valorRec" class="form-control">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="data">Data</label>
+                            <input type="date" name="data" id="dataRec" class="form-control">
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer" style="justify-content: center;">
+                     <button type="submit"  id="botaoReceita"> <img src="/assets/img/img-button-complet.png" class="img-complet"></button>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    
 
     
     
 
-<script src="/assets/js/main.js"></script>
 <script src="/assets/js/scripts/visão_geral.js"></script>
 </body>
 </html>

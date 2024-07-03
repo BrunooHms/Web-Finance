@@ -179,4 +179,38 @@
     color: #656060;
 }
 
+.img-complet {
+    width: 4rem;
+}
+
+
+#botaoDespesa {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+#botaoReceita {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.modal-header h2 {
+    color: #968c8c;
+}
+
+.modal-body {
+    color: #7c7676;
+}
+
+#valorRec ::-webkit-outer-spin-button,
+#valorRec ::-webkit-inner-spin-button{
+    margin: 0;
+}
+
 
