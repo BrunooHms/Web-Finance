@@ -1772,7 +1772,7 @@ pre code {
 }
 
 .table-hover .table-info:hover {
-  background-color: #abdde5;
+  background-color: #abe5be;
 }
 
 .table-hover .table-info:hover > td,
@@ -1976,9 +1976,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #80bdff;
+  border-color: #50e01c;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(30, 247, 14, 0.25);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -3622,16 +3622,16 @@ tbody.collapse.show {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  background-color: #007bff;
+  background-color: #00ff26;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(123, 121, 233, 0.25);
 }
 
 .custom-control-input:active ~ .custom-control-label::before {
   color: #fff;
-  background-color: #b3d7ff;
+  background-color: #9fade7;
 }
 
 .custom-control-input:disabled ~ .custom-control-label {
