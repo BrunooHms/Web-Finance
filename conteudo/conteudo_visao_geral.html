@@ -22,11 +22,13 @@
                 <div class="bloco-de-info">
                     <div class="receita-mensal">
                         <h3>receita mensal</h3>
-                        <p>R$ 0,00 </p>
+                        <p id="valorReceitaMensal" class="valor-receita-mensal">R$ 0,00 </p>
+                        <p id="receitaEscondida" class="receita-escondida invisivel">R$ ---- </p>
                     </div>
                     <div class="despesa-mensal">
                         <h3>despesa mensal</h3>
-                        <p>R$ 0,00 </p>
+                        <p id="valorDespesaMensal" class="valor-despesa-mensal">R$ 0,00 </p>
+                        <p id="despesaEscondida" class="despesa-escondida invisivel">R$ ----</p>
                     </div>
                 </div>
             </div>
@@ -49,8 +51,11 @@
     <div class="saldo-geral">
         <div class="saldo-geral-valor">
             <p>Saldo geral</p>
-            <div>
-                <label>R$</label> <strong>0,00</strong>
+            <div class="valor-saldo">
+                <label>R$</label> 
+                <p id="saldoVisivel" class="valor-saldo">0,00</p> 
+                <p id="saldoEscondido" class="valor-saldo-escondido"> ----  </p> 
+                <button class="botao-saldo"> <img src="/assets/img/cadeado-aberto.png" class="icone-senha"></button>
             </div>
         </div>
     </div>
