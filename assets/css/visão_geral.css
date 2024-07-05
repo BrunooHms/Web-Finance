@@ -37,10 +37,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
 }
 
 .receita-mensal {
     display: flex;
+    position: relative;
     flex-direction: column;
     border-radius: 8px;
     border: 1px solid #fff;
@@ -52,6 +54,7 @@
     justify-content: center;
     height: 5rem;
     width: 10rem;
+    
 }
 
 .receita-mensal h3 {
@@ -63,10 +66,13 @@
     color: rgb(74, 241, 74);
     font-weight: bold;
     font-size: 1.3rem;
+    margin-left: 5rem;
+    margin-top: 2.8rem;
 }
 
 .despesa-mensal {
     display: flex;
+    position: relative;
     flex-direction: column;
     border-radius: 8px;
     border: 1px solid #fff;
@@ -91,6 +97,8 @@
     color: rgb(255, 0, 0);
     font-weight: bold;
     font-size: 1.3rem;
+    margin-left: 5rem;
+    margin-top: 2.8rem;
 }
 
 .titulo-direita {
@@ -146,6 +154,7 @@
 }
 
 .saldo-geral {
+    position: relative;
     margin: 5%;
     background: #fefdf9;
     padding: 30px;
@@ -170,9 +179,6 @@
     color: #656060;
 }
 
-.saldo-geral-valor strong {
-    font-size: 1.5rem;
-}
 
 .saldo-geral-valor label {
     font-size: 1.1rem;
@@ -208,6 +214,61 @@
     color: #7c7676;
 }
 
+.icone-olho-aberto {
+    width: 1.5rem;
+    
+}
+
+.botao-saldo {
+    border: none;
+    background-color: inherit;
+    float: right;
+    cursor: pointer;
+    outline: none !important;
+    margin-left: 10rem;
+}
 
 
+.valor-saldo {
+    display: flex;
+    align-items: center;
+    width: 10rem;
+}
+
+.valor-saldo p {
+    position: absolute;
+    margin-left: 2rem;
+}
+
+.valor-saldo-escondido {
+    visibility: hidden;
+}
+
+
+.invisivel {
+    opacity: 0; 
+    visibility: hidden; 
+}
+
+.valor-receita-mensal,
+.valor-despesa-mensal,
+.receita-escondida,
+.despesa-escondida {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.valor-receita-mensal,
+.valor-despesa-mensal {
+    z-index: 1;
+    color: green; /* Cor para visualização */
+}
+
+.receita-escondida,
+.despesa-escondida {
+    z-index: 2;
+    color: red; /* Cor para visualização */
+}
 

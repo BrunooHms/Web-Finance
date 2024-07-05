@@ -5,6 +5,18 @@ const btnDespesaModal = document.querySelector('#botaoDespesa')
 const btnReceitaModal = document.querySelector('#botaoReceita')
 const horarioDoDia = document.querySelector('#horaDoDia')
 const iconeSaudacao = document.querySelector('.icone-saudacao')
+const botaoSenha = document.querySelector('.botao-saldo')
+
+const valorReceitaMensal = document.querySelector('#valorReceitaMensal')
+const receitaEscondida = document.querySelector('#receitaEscondida')
+
+const valorDespesaMensal = document.querySelector('#valorDespesaMensal')
+const despesaEscondida = document.querySelector('#despesaEscondida')
+
+const valorVisivel = document.querySelector('#saldoVisivel')
+const valorEscondido = document.querySelector('#saldoEscondido')
+
+
 
 btnDespesaModal.addEventListener('click', () => {
     Concluir_des()
@@ -12,6 +24,51 @@ btnDespesaModal.addEventListener('click', () => {
 btnReceitaModal.addEventListener('click', () => {
     Concluir_rec()
 })
+
+botaoSenha.addEventListener('click', function(){
+    const img = document.querySelector(".icone-senha")
+    const cadeadoAberto = '/assets/img/cadeado-aberto.png'
+    const cadeadoFechado = '/assets/img/cadeado-fechado.png'
+
+    img.src = img.src.includes(cadeadoAberto) ? cadeadoFechado : cadeadoAberto;
+
+})
+
+botaoSenha.addEventListener('click', function(){
+
+   if (valorReceitaMensal.classList.contains('invisivel')){
+        valorReceitaMensal.classList.remove('invisivel')
+        receitaEscondida.classList.add('invisivel')
+   } else {
+        valorReceitaMensal.classList.add('invisivel')
+        receitaEscondida.classList.remove('invisivel')
+   }
+
+
+   if (valorDespesaMensal.classList.contains('invisivel')){
+        valorDespesaMensal.classList.remove('invisivel')
+        despesaEscondida.classList.add('invisivel')
+   } else {
+    valorDespesaMensal.classList.add('invisivel')
+    despesaEscondida.classList.remove('invisivel')
+   }
+
+   
+
+   
+   if (valorVisivel.style.visibility === 'hidden') {
+    valorVisivel.style.visibility = 'visible';
+    valorEscondido.style.visibility = 'hidden';
+} else {
+    valorVisivel.style.visibility = 'hidden';
+    valorEscondido.style.visibility = 'visible';
+}
+    
+
+    
+})
+
+
 
 
 function Concluir_des() {
