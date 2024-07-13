@@ -254,21 +254,25 @@
 .valor-despesa-mensal,
 .receita-escondida,
 .despesa-escondida {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position:absolute;
+    top: 5%;
+    left: 10%;
     margin: 0;
+    
 }
 
+
+
+/*
 .valor-receita-mensal,
 .valor-despesa-mensal {
     z-index: 1;
-    color: green; /* Cor para visualização */
+    color: green; 
 }
 
 .receita-escondida,
 .despesa-escondida {
     z-index: 2;
-    color: red; /* Cor para visualização */
+    color: red; 
 }
-
+*/
