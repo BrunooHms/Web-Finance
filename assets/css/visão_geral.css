@@ -206,6 +206,16 @@
     
 }
 
+#botaoDespesa:hover .img-complet {
+    filter: brightness(0.7);
+    transition: 0.5s;
+}
+
+#botaoReceita:hover .img-complet {
+    filter: brightness(0.8);
+    transition: 0.5s;
+}
+
 .modal-header h2 {
     color: #968c8c;
 }
@@ -261,18 +271,3 @@
     
 }
 
-
-
-/*
-.valor-receita-mensal,
-.valor-despesa-mensal {
-    z-index: 1;
-    color: green; 
-}
-
-.receita-escondida,
-.despesa-escondida {
-    z-index: 2;
-    color: red; 
-}
-*/
