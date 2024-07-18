@@ -105,3 +105,39 @@
     outline: none;
     
 }
+
+.calendario {
+    display:inline-block;
+    margin-left: 4rem;
+    color: #868484;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+}
+
+.mes-do-ano {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.4rem;
+    font-size: 1.1rem;
+    
+}
+
+.btn-calendario  {
+    
+    border-radius: 50%;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    color: #868484;
+    outline: none !important;
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+.btn-calendario:hover {
+    background-color: #ebe4e4;
+    color: #292727;
+}
+
