@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap');
+
+* {
+    font-family: "Lato", sans-serif;
+}
 
 .main-tops {
     display: flex;
@@ -161,10 +166,10 @@
     border: 1px solid #f2f4ef;
     box-shadow: 0 41px 70px rgba(0, 0, 0, .03);
     border-radius: 8px;
-    
 }
 
 .saldo-geral-valor {
+
     display: flex;
     cursor: default;
     opacity: 1;
@@ -174,8 +179,13 @@
     
 }
 
+.borda-saldo-negativo {
+    border-left: 3px solid red;
+}
+
+
 .saldo-geral-valor p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #656060;
 }
 
@@ -245,6 +255,10 @@
     width: 10rem;
 }
 
+.saldo-negativo {
+    color: red;
+}
+
 .valor-saldo p {
     position: absolute;
     margin-left: 2rem;
@@ -266,7 +280,7 @@
 .despesa-escondida {
     position:absolute;
     top: 5%;
-    left: 10%;
+    left: 0%;
     margin: 0;
     
 }

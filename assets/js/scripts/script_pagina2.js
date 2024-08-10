@@ -14,6 +14,9 @@ function initPage2(){
                     'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 
     
+
+
+    
     data = new Date 
     let mesAtual = data.getMonth()
     let anoAtual = data.getFullYear()
@@ -94,6 +97,9 @@ function initPage2(){
 
         
 }
+
+
+
 
 initPage2()
 

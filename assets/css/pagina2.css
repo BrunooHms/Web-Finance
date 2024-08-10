@@ -88,7 +88,7 @@
 }
 
 #botaoDespesaPag2:hover .img-complet {
-    filter: brightness(0.7);
+    filter: brightness(0.8);
     transition: 0.5s;
 }
 
@@ -125,19 +125,85 @@
 
 .btn-calendario  {
     
-    border-radius: 50%;
     background-color: inherit;
     border: none;
-    cursor: pointer;
-    color: #868484;
     outline: none !important;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.direcional_calendario {
     width: 2rem;
-    height: 2rem;
+}
+
+.btn-calendario:hover .direcional_calendario {
+    
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+
+
+.lancamentos_mes {
+    border-radius: 5px;
+    padding: 0.5rem;
+    justify-content: end;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #868484;
+    margin-top: 1rem;
     
 }
 
-.btn-calendario:hover {
-    background-color: #ebe4e4;
-    color: #292727;
+.lancamentos_mes:hover {
+    background-color: rgb(203, 240, 203);
+    color: #4b4a4a;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
+.descricoes_mensais .descricao {
+    
+    margin-left: 1rem;
+}
+
+.descricoes_mensais .valor {
+    
+    margin-left: 22rem;
+}
+
+.descricoes_mensais .data {
+    
+    margin-left: 1rem;
+}
+
+.descricao-lancamentos {
+    font-weight: bold;
+    margin-top: 6px;
+    
+}
+
+.descricao-lancamentos .header-desc {
+    margin-left: 1rem;
+}
+
+.descricao-lancamentos .header-date {
+    margin-left: 3rem;
+}
+
+.descricao-lancamentos .header-value {
+    margin-left: 22rem;
+}
+
+
+
+
+
+
+
+
+
 
